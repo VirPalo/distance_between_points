@@ -18,12 +18,12 @@ def obtener_coords(mensaje):
 #Ingreso de datos
 print('Ingrese las coordenadas de los puntos x e y')
 x1 = obtener_coords('Ingrese la coordenada x del primer punto: ')
-x2 = obtener_coords('Ingrese la coordenada x del segundo punto: ')
 y1 = obtener_coords('Ingrese la coordenada y del primer punto: ')
+x2 = obtener_coords('Ingrese la coordenada x del segundo punto: ')
 y2 = obtener_coords('Ingrese la coordenada y del segundo punto: ')
 
 #Llamada a la función
-dist_between_points(x1, x2, y1, y2)
+dist_between_points(x1, y1, x2, y2)
 
     
 
